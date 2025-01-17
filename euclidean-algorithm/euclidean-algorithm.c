@@ -21,7 +21,7 @@ int main (void)
         r = a % b;
         a = b;
         b = r;
-    }
+    } 
 
 
     // ouput
