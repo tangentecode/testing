@@ -1,17 +1,21 @@
 #include <stdio.h>
 
+
 int main (void)
 {
-    int a;
-    int b;
-    
+    int a; // first number
+    int b; // second number
+    int r; // rest
+   
+    // get input
     printf("First number: ");
     scanf("%i", &a);
 
     printf("Second number: ");
     scanf("%i", &b);
 
-    int r;
+
+    // calculate result
     while (b > 0)
     {
         r = a % b;
@@ -19,5 +23,7 @@ int main (void)
         b = r;
     }
 
+
+    // ouput
     printf("Result: %i\n", a);
 }
